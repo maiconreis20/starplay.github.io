@@ -2,10 +2,10 @@
 #home{
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.0),#333),
-    url('../media/images/background.png');
+    url('../media/images/background2.jpg');
     background-color: #000;
-    background-size: 200%;
-    background-position: center top;
+    background-size: cover;
+    background-position: center;
     background-repeat:no-repeat;
     height: 100%;
 }
