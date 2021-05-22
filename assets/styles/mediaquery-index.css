@@ -1,13 +1,5 @@
-@media only screen and (orientation: portrait) and (min-width: 412px) {
-    #container-logo {
-        padding-top: 25%;
-    }
-}
-
 @media only screen and (orientation: portrait) and (min-width: 500px) {
-    #container-logo {
-        padding-top: 15%;
-    }
+    
     .item{
         margin-bottom: 25px;
     }
@@ -18,7 +10,24 @@
         padding-left: 25px;
     }
 }
-@media only screen and (orientation: portrait) and (min-width: 638px) {
+@media only screen and (orientation: portrait) and (min-height: 530px) {
+    #container-logo{
+        max-width: 190px;
+        padding-top: 18%;
+    }
+}
+@media only screen and (orientation: portrait) and (min-height: 560px) {
+    #container-logo{
+        padding-top: 25%;
+    }
+}
+@media only screen and (orientation: portrait) and (min-height: 630px) {
+    #container-logo{
+        padding-top: 25%;
+    }
+}
+
+@media only screen and (orientation: portrait) and (min-width: 838px) {
     #container-logo {
         padding-top: 10%;
     }
@@ -51,100 +60,25 @@
     }
 
 }
-@media only screen and (orientation: landscape) and (min-width: 700px) {
 
-    .item{
-        margin-bottom: 35px;
-    }
-    .setup{
-        padding-top: 35px;
-    }
-    .item img{
-        padding-left: 35px;
-    }
-    #plans .container-screen{
-        max-width: 760px;
-    }
-}
-@media only screen and (orientation: landscape) and (min-width: 752px) {
-
-    .card-plans{
-        width: 45.5%;
-    }
-    #primary{
-        margin-right: 9%;
-    }
-    .card .content-card{
-        font-size: 1.3em;
-    }
-    .text-content{
-        font-size: 1.4em;
-    }
-
-}
-#container-options-menu{
-    display: none;
-    position: fixed;
-    width: 60%;
-    height: auto;
-    background:#202020;
-    z-index: 6;
-    left: 4%;
-    top: 8%;
-    border-radius: 6px;
-    max-width: 268px;
-}
-.options-menu {
-    padding: 8%;
-    display: block;
-}
-
-@media only screen and (orientation: landscape) and (min-height: 245px) and (max-height: 444px){
+@media only screen and (orientation: landscape) and (min-height: 280px) {
     
     #container-logo{
-        padding-top: 5%;
-        width: 10%;
-    }
-    #container-more{
-        display: none;
-    }
-}
-
-@media only screen and (orientation: landscape) and (min-height: 445px) and (max-height: 526px){
-    
-    #container-logo{
-        padding-top: 18%;
+        padding-top: 7%;
         width: 100%;
-        max-width: 300px;
-    }
-
-}
-
-@media only screen and (orientation: landscape) and (min-height: 527px) {
-    
-    #container-logo{
-        padding-top: 10%;
-        width: 18%;
+        max-width: 130px;
     }
     .buttont {
         max-width: 700px;
         font-size: 1.7em;
     }
-
-}
-
-@media only screen and (orientation: landscape) and (min-height: 354px) {
-    
-
     #container-more{
-        display: block;
+        display: none;
     }
 
 }
+
 @media only screen and (orientation: landscape) and (min-width: 420px) {
-    .container-screen{
-        max-width: 900px;
-    }
     #subcontent{
         max-width: 440px;
     }
@@ -180,6 +114,78 @@
     }
 
 }
+
+@media only screen and (orientation: landscape) and (min-height: 380px) {
+    
+    #container-more{
+        display: block;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-height: 443px) {
+    
+    #container-logo{
+        padding-top: 5%;
+        max-width: 180px;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-height: 492px) {
+    
+    #container-logo{
+        max-width: 200px;
+        padding-top: 14%;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-height: 580px) {
+    
+    #container-logo{
+        padding-top: 12%;
+        max-width: 230px;
+    }
+
+
+}
+
+@media only screen and (orientation: landscape) and (min-height: 632px) {
+    
+    #container-logo{
+        padding-top: 12%;
+        max-width: 250px;
+    }
+
+
+}
+
+@media only screen and (orientation: landscape) and (min-width: 700px) {
+
+    .item{
+        margin-bottom: 35px;
+    }
+    .setup{
+        padding-top: 35px;
+    }
+    .item img{
+        padding-left: 35px;
+    }
+    #plans .container-screen{
+        max-width: 760px;
+    }
+}
+@media only screen and (orientation: landscape) and (min-width: 752px) {
+
+    .card .content-card{
+        font-size: 1.3em;
+    }
+    .text-content{
+        font-size: 1.4em;
+    }
+}
+
 
 
 

@@ -2,16 +2,16 @@
     background: #333;
     height: auto;
     float: left;
-    padding-bottom: 90px;
+    padding-bottom: 75px;
 }
 .card-plans{
-    float: left;
-    width: 48.5%;
+    width: 100%;
     height: auto;
     box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
+    margin: 0 auto;
 }
 #primary{
-    margin-right: 3%;
+    max-width: 500px;
 }
 .name-plan{
     width: 100%;
@@ -22,29 +22,38 @@
     border-top-left-radius: 4px;
 }
 .setup{
-    width: 100%;
+    width: auto;
     height: auto;
     padding-top: 10px;
+    padding-bottom: 10px;
+    display: table;
+    margin: 0 auto;
 }
 .price{
     width: 100%;
     height: 55px;
     border-radius: 4px;
+    max-width: 400px;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 #color1{
-    background: #00aff7;
+    background-image: linear-gradient(to top right,#8d0dbc, #00aff7);
 }
 #color2{
-    background: #8d0dbc;
+    background-image: linear-gradient(to top left,#8d0dbc, #00aff7);
 }
 .content-price{
     margin: 0 auto;
-    width: 78%;
-    padding-top: 17px;
+    width: auto;
+    padding-top: 14px;
+    display: table;
 }
 .currency{
     float: left;
     font-size: 0.8em;
+    margin-top: 5px;
 }
 .value{
     float: left;
@@ -55,7 +64,11 @@
 }
 .period{
 
-    font-size: 0.7em;
+    font-size: 1em;
+    text-align: center;
+    float: left;
+    color: #fbb713;
+    margin-top: 2px;
 
 }
 .fixed-text{
@@ -63,10 +76,16 @@
     font-size: 0.9em;
 }
 #plan-blue{
-    color: #00aff7;
+    background: linear-gradient(to left,#00aff7, #00aff7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 #plan-green{
-    color: #8d0dbc;
+    background: linear-gradient(to left,#00aff7, #00aff7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 .name-text{
     padding-top: 10px;
@@ -77,15 +96,36 @@
     margin-bottom: 15px;
 }
 .item img{
-    width: 10px;
+    width: 12px;
     float: left;
     padding-right: 10px;
     margin-top: 5px;
     padding-left: 10px;
 }
 .title-setup{
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #d2d2d2;
-    width: 70%;
+    width: auto;
     display: inline-block;
+}
+.container-more2{
+    display: table;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-more2 .arrow{
+    position: relative;
+    width: 15px;
+    left: 50%;
+    margin-left: -15px;
+}
+.container-more2 .text{
+    margin-bottom: 10px;
+    color: #fbb713;
+    font-size: 1.3em;
+    padding-top: 10px;
+    
 }

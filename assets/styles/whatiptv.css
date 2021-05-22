@@ -26,6 +26,17 @@
     padding-bottom: 40px;
     
 }
+#container-device-1{
+
+    width: 47%;
+    
+}
+#maxwidth-container-devices{
+    max-width: 494px;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+}
 .container-devices p {
     margin: 0px;
 }
@@ -41,8 +52,16 @@
     margin: 0 auto;
     padding-bottom: 20px;
 }
-#container-device-1{
-    width: 47%;
+#icon-device-2{
+    width: 70%;
+    
+
+}
+#icon-device-1{
+    width: 50%;
+
+    
+
 }
 .text-device p{
     font-family: inter-light;
@@ -51,5 +70,8 @@
     font-family: inter-bold;
 }
 #whatiptv-container-screen{
-    padding-top: 25px;
+    padding-top: 55px;
+}
+#whatiptv-container{
+    padding-bottom: 0px;
 }

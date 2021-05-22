@@ -15,14 +15,13 @@
     src: url("../media/fonts/Inter-Bold.ttf");
 }
 
-html,body{
-
+html,body,main{
     margin: 0;
     padding: 0px;
     color: #fff;
     font-family: inter-regular;
     scroll-behavior: smooth;
-
+    height: 100%;
 }
 a {
     color: inherit;
@@ -56,6 +55,22 @@ nav{
     width: auto;
 
 }
+#container-options-menu{
+    display: none;
+    position: fixed;
+    width: 60%;
+    height: auto;
+    background:#202020;
+    z-index: 6;
+    left: 4%;
+    top: 8%;
+    border-radius: 6px;
+    max-width: 268px;
+}
+.options-menu {
+    padding: 8%;
+    display: block;
+}
 .screen{
 
     position: relative;
@@ -64,19 +79,24 @@ nav{
 
 }
 #aboutme{
-    background: #0000ff;
+    background: #fff000;
+    height: auto;
     float: left;
 }
-
 #gridchannel{
     background: #fff000;
     height: auto;
     float: left;
 }
-
+#util{
+    background: #fff000;
+    height: auto;
+    float: left;
+}
 #whatiptv{
     background: #333333;
     float: left;
+    padding-bottom: 25px;
 }
 .container-screen{
     position: relative;
@@ -96,9 +116,10 @@ nav{
     text-align: center;
 }
 .content-screen{
-    width: 100%;
+    width: 95%;
     height: auto;
-    display: inline-block;
+    display: table;
+    margin: 0 auto;
 }
 .container{
 
@@ -123,6 +144,7 @@ nav{
 }
 .content-card{
     color: #d2d2d2;
+    text-align: justify;
 }
 .buttont{
     background-image: linear-gradient(to left,#8d0dbc, #00aff7);
@@ -142,4 +164,10 @@ nav{
     display: block;
     bottom: 20px;
     right: 20px;
+}
+#downloads {
+    background: #333333;
+    float: left;
+    padding-bottom: 55px;
+    height: auto;
 }
