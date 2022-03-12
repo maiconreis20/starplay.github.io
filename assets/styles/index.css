@@ -142,6 +142,11 @@ nav{
     padding-bottom: 15px;
     font-family: inter-bold;
 }
+.title-card-center {
+    padding-bottom: 18px;
+    font-family: inter-bold;
+    text-align: center;
+}
 .content-card{
     color: #d2d2d2;
     text-align: justify;
@@ -171,7 +176,6 @@ nav{
     padding-bottom: 55px;
     height: auto;
 }
-
 .banners {
     width: 100%;
 }
@@ -188,13 +192,11 @@ nav{
     position: relative;
     width:100%;
 }
-
 .video-container::after {
     padding-top: 56.25%;
     display: block;
     content: '';
 }
-
 .video-container iframe {
     position: absolute;
     top: 0;
